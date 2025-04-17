@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "LeStegii's Take on TFC",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "LeStegii",
     "files": [
         {
@@ -27,10 +27,22 @@
             "__comment": "Bookshelf"
         },
         {
+            "projectID": 228756,
+            "fileID": 4614852,
+            "required": true,
+            "__comment": "Iron Chests"
+        },
+        {
             "projectID": 238222,
             "fileID": 6075247,
             "required": true,
             "__comment": "JEI"
+        },
+        {
+            "projectID": 238551,
+            "fileID": 5794082,
+            "required": true,
+            "__comment": "GraveStone Mod"
         },
         {
             "projectID": 239197,
@@ -39,10 +51,10 @@
             "__comment": "CraftTweaker"
         },
         {
-            "projectID": 240630,
-            "fileID": 5057220,
+            "projectID": 240633,
+            "fileID": 5979609,
             "required": true,
-            "__comment": "Just Enough Resources (JER)"
+            "__comment": "Inventory Sorter"
         },
         {
             "projectID": 245755,
@@ -106,7 +118,7 @@
         },
         {
             "projectID": 324717,
-            "fileID": 5876199,
+            "fileID": 6106101,
             "required": true,
             "__comment": "Jade"
         },
@@ -127,6 +139,12 @@
             "fileID": 5968677,
             "required": true,
             "__comment": "Entity Culling Fabric/Forge"
+        },
+        {
+            "projectID": 453394,
+            "fileID": 6033720,
+            "required": true,
+            "__comment": "FirmaLife"
         },
         {
             "projectID": 457570,
@@ -153,6 +171,12 @@
             "__comment": "Ok Zoomer Forge"
         },
         {
+            "projectID": 714158,
+            "fileID": 5737719,
+            "required": true,
+            "__comment": "Firma: Civilization (TFC)"
+        },
+        {
             "projectID": 790626,
             "fileID": 6025611,
             "required": true,
@@ -177,10 +201,22 @@
             "__comment": "Wall-Jump TXF"
         },
         {
+            "projectID": 1068445,
+            "fileID": 5963449,
+            "required": true,
+            "__comment": "aleki's Nifty Ships"
+        },
+        {
             "projectID": 1103431,
             "fileID": 6100812,
             "required": true,
             "__comment": "Sodium/Embeddium Options API"
+        },
+        {
+            "projectID": 1113980,
+            "fileID": 5878796,
+            "required": true,
+            "__comment": "Beneath"
         },
         {
             "projectID": 1129845,
