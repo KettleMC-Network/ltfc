@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "LeStegii's Take on TFC",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "LeStegii",
     "files": [
         {
@@ -69,6 +69,12 @@
             "__comment": "Clumps"
         },
         {
+            "projectID": 263466,
+            "fileID": 5548212,
+            "required": true,
+            "__comment": "Xaero's Minimap (Fair-play Edition)"
+        },
+        {
             "projectID": 271740,
             "fileID": 4711316,
             "required": true,
@@ -91,6 +97,12 @@
             "fileID": 4966125,
             "required": true,
             "__comment": "Patchouli"
+        },
+        {
+            "projectID": 317780,
+            "fileID": 5987149,
+            "required": true,
+            "__comment": "Xaero's World Map"
         },
         {
             "projectID": 324717,
