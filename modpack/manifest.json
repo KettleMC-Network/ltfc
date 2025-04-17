@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "LeStegii's Take on TFC",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "author": "LeStegii",
     "files": [
         {
@@ -183,10 +183,22 @@
             "__comment": "ModernFix"
         },
         {
+            "projectID": 836902,
+            "fileID": 4862357,
+            "required": true,
+            "__comment": "TFC Anvil Helper"
+        },
+        {
             "projectID": 858542,
             "fileID": 5284015,
             "required": true,
             "__comment": "Searchables"
+        },
+        {
+            "projectID": 877545,
+            "fileID": 5525258,
+            "required": true,
+            "__comment": "ArborFirmaCraft"
         },
         {
             "projectID": 908741,
@@ -199,6 +211,12 @@
             "fileID": 6258974,
             "required": true,
             "__comment": "Wall-Jump TXF"
+        },
+        {
+            "projectID": 1048212,
+            "fileID": 5852507,
+            "required": true,
+            "__comment": "Roads and Roofs TFC"
         },
         {
             "projectID": 1068445,

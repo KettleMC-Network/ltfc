@@ -14,9 +14,9 @@ val removedRecipeItems = [
 	<item:ironchest:obsidian_chest>,
 	<item:ironchest:dirt_chest>,
 	<item:waystones:waystone>,
-	<item:minecraft:bamboo_raft>,
 	<item:minecraft:tnt>,
 	<item:minecraft:golden_apple>,
+	<item:minecraft:iron_nugget>,
 	<item:gravestone:gravestone>,
 	<item:ironchest:iron_to_gold_chest_upgrade>,
 	<item:ironchest:gold_to_diamond_chest_upgrade>,
@@ -24,13 +24,18 @@ val removedRecipeItems = [
 	<item:ironchest:diamond_to_crystal_chest_upgrade>,
 	<item:ironchest:wood_to_iron_chest_upgrade>,
 	<item:ironchest:wood_to_copper_chest_upgrade>,
-	<item:ironchest:diamond_to_obsidian_chest_upgrade>
+	<item:ironchest:diamond_to_obsidian_chest_upgrade>,
+	<item:alekiships:oarlock>,
+	<item:alekiships:cleat>,
+	<item:alekiships:anchor>,
+	<item:alekiships:cannonball>
 ];
 
 
 val removedRecipes = [
 	"minecraft:minecart",
-	"minecraft:hopper"
+	"minecraft:hopper",
+	"minecraft:armor_stand"
 ];
 
 
@@ -50,11 +55,6 @@ for recipe in removedRecipes {
 	[<item:minecraft:air>, <tag:items:tfc:rock/bricks>, <item:minecraft:air>],
 	[<tag:items:tfc:rock/bricks>, <item:tfc:gem/amethyst>, <tag:items:tfc:rock/bricks>],
 	[<tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/copper>]
-]);
-
-<recipetype:minecraft:crafting>.addShaped("lftc.bamboo_raft", <item:minecraft:bamboo_raft>, [
-	[<item:minecraft:stripped_bamboo_block>, <item:minecraft:air>, <item:minecraft:stripped_bamboo_block>],
-	[<item:minecraft:stripped_bamboo_block>, <item:minecraft:stripped_bamboo_block>, <item:minecraft:stripped_bamboo_block>]
 ]);
 
 <recipetype:minecraft:crafting>.addShaped("lftc.tnt", <item:minecraft:tnt>, [
@@ -172,6 +172,24 @@ for recipe in removedRecipes {
 ]);
 
 
+<recipetype:minecraft:crafting>.addShaped("lftc.oarlock", <item:alekiships:oarlock>, [
+	[<item:minecraft:air>, <tag:items:forge:ingots/wrought_iron>, <item:minecraft:air>],
+	[<tag:items:forge:ingots/wrought_iron>, <tag:items:forge:ingots/wrought_iron>, <tag:items:forge:ingots/wrought_iron>]
+]);
+
+
+<recipetype:minecraft:crafting>.addShaped("lftc.cleat", <item:alekiships:cleat>, [
+	[<tag:items:forge:ingots/wrought_iron>, <tag:items:forge:ingots/wrought_iron>, <tag:items:forge:ingots/wrought_iron>],
+	[<tag:items:forge:nuggets/iron>, <item:minecraft:air>, <tag:items:forge:nuggets/iron>]
+]);
+
+
+<recipetype:minecraft:crafting>.addShaped("lftc.anchor", <item:alekiships:anchor>, [
+	[<item:minecraft:air>, <item:tfc:metal/chain/wrought_iron>, <item:minecraft:air>],
+	[<item:minecraft:air>, <tag:items:forge:ingots/wrought_iron>, <item:minecraft:air>],
+	[<tag:items:forge:nuggets/iron>, <tag:items:forge:ingots/wrought_iron>, <tag:items:forge:nuggets/iron>]
+]);
+
 
 var recipeCounter = 0;
 
@@ -211,7 +229,7 @@ for water in [
 
 
 <recipetype:tfc:barrel_instant>.addJsonRecipe("ltfc.paper", {
-  "input_item": {
+	"input_item": {
 		"ingredient": {
 			"item": "gravestone:obituary"
 		}
@@ -223,6 +241,22 @@ for water in [
 	"output_item": {
 		"item": "minecraft:paper"
 	}
+});
+
+<recipetype:tfc:anvil>.addJsonRecipe("ltfc.iron_nuggets", {
+	"input": {
+		"tag": "forge:ingots/wrought_iron"
+	},
+	"result": {
+		"item": "minecraft:iron_nugget",
+		"count": 9
+	},
+	"tier": 1,
+	"rules": [
+		"punch_last",
+		"punch_second_last",
+		"punch_third_last"
+	]
 });
 
 
@@ -341,6 +375,7 @@ val removeAndHide = [
 	<item:minecraft:cherry_pressure_plate>,
 	<item:minecraft:cherry_button>,
 	<item:minecraft:bamboo_planks>,
+	<item:minecraft:bamboo_raft>,
 	<item:minecraft:bamboo_mosaic>,
 	<item:minecraft:bamboo_stairs>,
 	<item:minecraft:bamboo_mosaic_stairs>,
@@ -445,7 +480,6 @@ val removeAndHide = [
 	<item:minecraft:deepslate_tile_slab>,
 	<item:minecraft:deepslate_tile_wall>,
 	<item:minecraft:reinforced_deepslate>,
-	<item:minecraft:bricks>,
 	<item:minecraft:brick_stairs>,
 	<item:minecraft:brick_slab>,
 	<item:minecraft:brick_wall>,
@@ -913,7 +947,6 @@ val removeAndHide = [
 	<item:minecraft:raw_gold>,
 	<item:minecraft:lapis_lazuli>,
 	<item:minecraft:amethyst_shard>,
-	<item:minecraft:iron_nugget>,
 	<item:minecraft:gold_nugget>,
 	<item:minecraft:netherite_scrap>,
 	<item:minecraft:wheat>,
@@ -946,13 +979,46 @@ val removeAndHide = [
 	<item:waystones:warp_scroll>,
 	
 	<item:ironchest:dirt_chest>,
-	<item:ironchest:trapped_dirt_chest>
+	<item:ironchest:trapped_dirt_chest>,
+	
+	<item:tfc:wood/boat/acacia>,
+	<item:tfc:wood/boat/ash>,
+	<item:tfc:wood/boat/aspen>,
+	<item:tfc:wood/boat/birch>,
+	<item:tfc:wood/boat/blackwood>,
+	<item:tfc:wood/boat/chestnut>,
+	<item:tfc:wood/boat/douglas_fir>,
+	<item:tfc:wood/boat/hickory>,
+	<item:tfc:wood/boat/kapok>,
+	<item:tfc:wood/boat/mangrove>,
+	<item:tfc:wood/boat/maple>,
+	<item:tfc:wood/boat/oak>,
+	<item:tfc:wood/boat/pine>,
+	<item:tfc:wood/boat/rosewood>,
+	<item:tfc:wood/boat/sequoia>,
+	<item:tfc:wood/boat/spruce>,
+	<item:tfc:wood/boat/sycamore>,
+	<item:tfc:wood/boat/white_cedar>,
+	<item:afc:wood/boat/teak>,
+	<item:afc:wood/boat/tualang>,
+	<item:afc:wood/boat/hevea>,
+	<item:afc:wood/boat/mahogany>,
+	<item:afc:wood/boat/eucalyptus>,
+	<item:afc:wood/boat/baobab>,
+	<item:beneath:wood/boat/warped>,
+	<item:beneath:wood/boat/crimson>,
+	<item:tfc:wood/boat/willow>,
+	<item:afc:wood/boat/cypress>,
+	<item:afc:wood/boat/fig>,
+	<item:afc:wood/boat/ironwood>,
+	<item:afc:wood/boat/ipe>,
+	<item:tfc:wood/boat/palm>
 ];
 
 
 Jei.hideIngredients(<tag:items:waystones:sharestone>);
 
 for ingredient in removeAndHide {
-	<recipetype:minecraft:crafting>.remove(ingredient);
+	#<recipetype:minecraft:crafting>.remove(ingredient);
 	Jei.hideIngredient(ingredient);
 }
