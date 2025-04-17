@@ -11,7 +11,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "LeStegii's Take on TFC",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "author": "LeStegii",
     "files": [
         {
@@ -46,7 +46,7 @@
         },
         {
             "projectID": 239197,
-            "fileID": 6102226,
+            "fileID": 6256146,
             "required": true,
             "__comment": "CraftTweaker"
         },
@@ -58,7 +58,7 @@
         },
         {
             "projectID": 245755,
-            "fileID": 5841750,
+            "fileID": 6225085,
             "required": true,
             "__comment": "Waystones"
         },
@@ -100,19 +100,19 @@
         },
         {
             "projectID": 302973,
-            "fileID": 6103204,
+            "fileID": 6187491,
             "required": true,
             "__comment": "TerraFirmaCraft"
         },
         {
             "projectID": 306770,
-            "fileID": 4966125,
+            "fileID": 6164575,
             "required": true,
             "__comment": "Patchouli"
         },
         {
             "projectID": 317780,
-            "fileID": 5987149,
+            "fileID": 6212636,
             "required": true,
             "__comment": "Xaero's World Map"
         },
@@ -136,13 +136,13 @@
         },
         {
             "projectID": 448233,
-            "fileID": 5968677,
+            "fileID": 6236056,
             "required": true,
             "__comment": "Entity Culling Fabric/Forge"
         },
         {
             "projectID": 453394,
-            "fileID": 6033720,
+            "fileID": 6249092,
             "required": true,
             "__comment": "FirmaLife"
         },
@@ -154,7 +154,7 @@
         },
         {
             "projectID": 531761,
-            "fileID": 6077684,
+            "fileID": 6224877,
             "required": true,
             "__comment": "Balm"
         },
@@ -178,7 +178,7 @@
         },
         {
             "projectID": 790626,
-            "fileID": 6025611,
+            "fileID": 6125143,
             "required": true,
             "__comment": "ModernFix"
         },
@@ -196,7 +196,7 @@
         },
         {
             "projectID": 909143,
-            "fileID": 6064439,
+            "fileID": 6258974,
             "required": true,
             "__comment": "Wall-Jump TXF"
         },
@@ -214,7 +214,7 @@
         },
         {
             "projectID": 1113980,
-            "fileID": 5878796,
+            "fileID": 6180230,
             "required": true,
             "__comment": "Beneath"
         },
