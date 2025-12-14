@@ -19,266 +19,304 @@
       "fileID": 7200580,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/arborfirmacraft",
-      "__name": "ArborFirmaCraft"
+      "__name": "ArborFirmaCraft",
+      "__author": "Therighton"
     },
     {
       "projectID": 531761,
       "fileID": 7087245,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/balm",
-      "__name": "Balm"
+      "__name": "Balm",
+      "__author": "BlayTheNinth"
     },
     {
       "projectID": 1113980,
       "fileID": 6905461,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/beneath",
-      "__name": "Beneath"
+      "__name": "Beneath",
+      "__author": "EERussianguy"
     },
     {
       "projectID": 228525,
       "fileID": 5423987,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
-      "__name": "Bookshelf"
+      "__name": "Bookshelf",
+      "__author": "DarkhaxDev"
     },
     {
       "projectID": 256717,
       "fileID": 5278538,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/clumps",
-      "__name": "Clumps"
+      "__name": "Clumps",
+      "__author": "Jaredlll08"
     },
     {
       "projectID": 457570,
       "fileID": 5180900,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/configured",
-      "__name": "Configured"
+      "__name": "Configured",
+      "__author": "MrCrayfish"
     },
     {
       "projectID": 250398,
       "fileID": 4646682,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/controlling",
-      "__name": "Controlling"
+      "__name": "Controlling",
+      "__author": "Jaredlll08"
     },
     {
       "projectID": 239197,
       "fileID": 6914010,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker",
-      "__name": "CraftTweaker"
+      "__name": "CraftTweaker",
+      "__author": "Jaredlll08"
     },
     {
       "projectID": 908741,
       "fileID": 5681725,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/embeddium",
-      "__name": "Embeddium"
+      "__name": "Embeddium",
+      "__author": "FiniteReality"
     },
     {
       "projectID": 250419,
       "fileID": 5855251,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions",
-      "__name": "Enchantment Descriptions"
+      "__name": "Enchantment Descriptions",
+      "__author": "DarkhaxDev"
     },
     {
       "projectID": 448233,
-      "fileID": 7167800,
+      "fileID": 7313354,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/entityculling",
-      "__name": "Entity Culling Fabric/Forge"
+      "__name": "Entity Culling Fabric/Forge",
+      "__author": "tr7zw"
     },
     {
       "projectID": 429235,
       "fileID": 4810975,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
-      "__name": "FerriteCore"
+      "__name": "FerriteCore ((Neo)Forge)",
+      "__author": "malte0811"
     },
     {
       "projectID": 714158,
       "fileID": 5737719,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/firmaciv",
-      "__name": "Firma: Civilization"
+      "__name": "Firma: Civilization (TFC)",
+      "__author": "alekiponi"
     },
     {
       "projectID": 453394,
       "fileID": 7184123,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/firmalife",
-      "__name": "FirmaLife"
+      "__name": "FirmaLife",
+      "__author": "EERussianguy"
     },
     {
       "projectID": 238551,
       "fileID": 7099725,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/gravestone-mod",
-      "__name": "GraveStone Mod"
+      "__name": "GraveStone Mod",
+      "__author": "henkelmax"
     },
     {
       "projectID": 240633,
       "fileID": 7188685,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorter",
-      "__name": "Inventory Sorter"
+      "__name": "Inventory Sorter",
+      "__author": "cpw"
     },
     {
       "projectID": 228756,
       "fileID": 4614852,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
-      "__name": "Iron Chests"
+      "__name": "Iron Chests",
+      "__author": "ProgWML6"
     },
     {
       "projectID": 368718,
       "fileID": 4781713,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/jeitweaker",
-      "__name": "JEITweaker"
+      "__name": "JEITweaker",
+      "__author": "Jaredlll08"
     },
     {
       "projectID": 324717,
       "fileID": 6855440,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/jade",
-      "__name": "Jade \ud83d\udd0d"
+      "__name": "Jade \ud83d\udd0d",
+      "__author": "Snownee"
     },
     {
       "projectID": 238222,
-      "fileID": 7181650,
+      "fileID": 7270446,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/jei",
-      "__name": "Just Enough Items (JEI)"
+      "__name": "Just Enough Items (JEI)",
+      "__author": "mezz"
     },
     {
       "projectID": 790626,
-      "fileID": 7200213,
+      "fileID": 7306749,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
-      "__name": "ModernFix"
+      "__name": "ModernFix",
+      "__author": "embeddedt"
     },
     {
       "projectID": 60089,
       "fileID": 5338457,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
-      "__name": "Mouse Tweaks"
+      "__name": "Mouse Tweaks",
+      "__author": "YaLTeR"
     },
     {
       "projectID": 631278,
       "fileID": 4715660,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/ok-zoomer-forge",
-      "__name": "Ok Zoomer Forge"
+      "__name": "Ok Zoomer Forge",
+      "__author": "matyrobbrt"
     },
     {
       "projectID": 306770,
       "fileID": 6164575,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
-      "__name": "Patchouli"
+      "__name": "Patchouli",
+      "__author": "Vazkii"
     },
     {
       "projectID": 283644,
       "fileID": 6274231,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/placebo",
-      "__name": "Placebo"
+      "__name": "Placebo",
+      "__author": "Shadows_of_Fire"
     },
     {
       "projectID": 1048212,
       "fileID": 5852507,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/roads-and-roofs-tfc",
-      "__name": "Roads and Roofs TFC"
+      "__name": "Roads and Roofs TFC",
+      "__author": "Therighton"
     },
     {
       "projectID": 858542,
       "fileID": 5284015,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/searchables",
-      "__name": "Searchables"
+      "__name": "Searchables",
+      "__author": "Jaredlll08"
     },
     {
       "projectID": 551736,
       "fileID": 6044481,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged",
-      "__name": "Sodium Dynamic Lights"
+      "__name": "Sodium/Embeddium Dynamic Lights",
+      "__author": "Txni"
     },
     {
       "projectID": 1103431,
       "fileID": 6100812,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/sodium-options-api",
-      "__name": "Sodium Options API"
+      "__name": "Sodium/Embeddium Options API",
+      "__author": "Txni"
     },
     {
       "projectID": 836902,
       "fileID": 4862357,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/texture-packs/tfc-anvil-helper",
-      "__name": "TFC Anvil Helper"
+      "__name": "TFC Anvil Helper",
+      "__author": "absolutespiceball"
     },
     {
       "projectID": 1129845,
       "fileID": 6019462,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/tfc-ruined-world",
-      "__name": "TFC ruined world"
+      "__name": "TFC ruined world",
+      "__author": "C4t2"
     },
     {
       "projectID": 302973,
       "fileID": 6990923,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft",
-      "__name": "TerraFirmaCraft"
+      "__name": "TerraFirmaCraft",
+      "__author": "Dries007"
     },
     {
       "projectID": 271740,
       "fileID": 4711316,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/toast-control",
-      "__name": "Toast Control"
+      "__name": "Toast Control",
+      "__author": "Shadows_of_Fire"
     },
     {
       "projectID": 909143,
       "fileID": 6584381,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/wall-jump-txf",
-      "__name": "Wall-Jump TXF"
+      "__name": "Wall-Jump TXF",
+      "__author": "jahirtrap"
     },
     {
       "projectID": 245755,
       "fileID": 6856603,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/waystones",
-      "__name": "Waystones"
+      "__name": "Waystones",
+      "__author": "BlayTheNinth"
     },
     {
       "projectID": 263466,
       "fileID": 5548212,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap-fair-play-edition",
-      "__name": "Xaero's Minimap (Fair-Play)"
+      "__name": "Xaero's Minimap (Fair-play Edition)",
+      "__author": "xaero96"
     },
     {
       "projectID": 317780,
       "fileID": 6778091,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
-      "__name": "Xaero's World Map"
+      "__name": "Xaero's World Map",
+      "__author": "xaero96"
     },
     {
       "projectID": 1068445,
       "fileID": 5963449,
       "required": true,
       "__link": "https://www.curseforge.com/minecraft/mc-mods/alekiships",
-      "__name": "aleki's Nifty Ships"
+      "__name": "aleki's Nifty Ships",
+      "__author": "alekiponi"
     }
   ],
   "overrides": "overrides"
