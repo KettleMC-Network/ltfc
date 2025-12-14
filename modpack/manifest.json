@@ -218,6 +218,13 @@
       "__name": "Sodium Options API"
     },
     {
+      "projectID": 836902,
+      "fileID": 4862357,
+      "required": true,
+      "__link": "https://www.curseforge.com/minecraft/texture-packs/tfc-anvil-helper",
+      "__name": "TFC Anvil Helper"
+    },
+    {
       "projectID": 1129845,
       "fileID": 6019462,
       "required": true,
