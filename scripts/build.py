@@ -6,6 +6,7 @@ from typing import Any
 
 # If this changes, the .gitignore file must be updated accordingly
 BUILD_DIR = ".build"
+OUTPUT_DIR = ".out"
 MODPACK_DIR = "modpack"
 LINK_FILE = "links.json"
 LINK_FIELD = "__link"
@@ -26,7 +27,7 @@ def sort_modlist(directory: str):
         with open(f"{directory}/modlist.html", "w") as f:
             f.write("<ul>\n")
             for mod in mods:
-                f.write(mod)
+                f.write(f"    {mod.strip()}\n")
             f.write("</ul>")
 
 
@@ -142,8 +143,10 @@ def compile():
     sort_modlist(BUILD_DIR)
     print("Sorting manifest...")
     sort_manifest(BUILD_DIR, keep_comments=False)
-    print("Zipping modpack...")
-    shutil.make_archive(f"{MODPACK_NAME}-{get_version_from_manifest(MODPACK_DIR)}", "zip", BUILD_DIR)
+    print("Zipping modpack into output directory...")
+    if not os.path.exists(OUTPUT_DIR):
+        os.mkdir(OUTPUT_DIR)
+    shutil.make_archive(f"{OUTPUT_DIR}/{MODPACK_NAME}-{get_version_from_manifest(MODPACK_DIR)}", "zip", BUILD_DIR)
     print("Done!")
 
 
